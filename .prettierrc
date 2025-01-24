@@ -1,0 +1,15 @@
+{
+  "endOfLine": "lf",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "printWidth": 120,
+  "plugins": ["prettier-plugin-packagejson", "@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": ["", "<BUILTIN_MODULES>", "", "<THIRD_PARTY_MODULES>", "", "^@/(.*)$", "", "^[.]"],
+  "importOrderTypeScriptVersion": "5.7.2",
+  "importOrderCaseSensitive": true
+}
